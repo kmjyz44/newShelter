@@ -388,12 +388,23 @@ border: 2px solid #CDCDCD;
 box-sizing: border-box;
 border-radius: 100px;
 color: $darkcolor;
-padding: 10px;
-margin-left: 20px;
+padding: 15px;
+margin-left: 25px;
 
 }
 .num p {
     background-color: #F1CDB3;
 }
+.hederPet{
+    background: white;
+    h1, a, p{
+        color: $darkcolor;
+    }
+    .logo .plogo{
+        color: $darkcolor;
+
+    }
+    
+} 
 
 

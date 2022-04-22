@@ -1117,10 +1117,20 @@ img {
   box-sizing: border-box;
   border-radius: 100px;
   color: #292929;
-  padding: 10px;
-  margin-left: 20px;
+  padding: 15px;
+  margin-left: 25px;
 }
 
 .num p {
   background-color: #F1CDB3;
+}
+
+.hederPet {
+  background: white;
+}
+.hederPet h1, .hederPet a, .hederPet p {
+  color: #292929;
+}
+.hederPet .logo .plogo {
+  color: #292929;
 }/*# sourceMappingURL=style.css.map */
