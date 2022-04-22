@@ -147,14 +147,9 @@ border: 2px solid #F1CDB3;
 box-sizing: border-box;
 border-radius: 100px;
 }
-.frendsCard {
-    .Katrine, .Jenifer {
-    @include card();
-    margin-right: 25px;
-    margin-left: 30px;
-}
-}
-.Woody{
+
+
+.Woody , .Katrine{
     @include flexColumn();
     justify-content: space-around;
     height: 435px;
@@ -174,6 +169,27 @@ border-radius: 100px;
     
     }
 }
+.Jenifer{
+    @include flexColumn();
+    justify-content: space-around;
+    height: 435px;
+    width: 270px;
+    left: 0px;
+    top: 587px;
+    border-radius: 9px;
+    background-color: $card-bacgraund-color;
+    font-family: $fontsCard;
+    font-size: 20px;
+    color: $darkcolor;
+    margin-right: 25px;
+    margin-left: 30px;
+
+    &:hover{
+        cursor: pointer;
+    
+    }
+}
+
 
 .frendsCard{
     display: flex;
@@ -340,7 +356,7 @@ grid-template-columns: repeat(4, 1fr);
     margin: 0;
     padding: 0;
 }
-.Katrine, .Jenifer, .Woody, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
+.Katrine, .Woody, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
         @include card();
     }
     

@@ -602,7 +602,7 @@ template {
     margin-left: 55%;
   }
 
-  .Woody {
+  .Woody, .Jenifer {
     opacity: 0;
     display: none;
     width: 0%;
@@ -780,7 +780,7 @@ a {
   border-radius: 100px;
 }
 
-.frendsCard .Katrine, .frendsCard .Jenifer {
+.Woody, .Katrine {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -797,35 +797,11 @@ a {
   margin-right: 25px;
   margin-left: 30px;
 }
-.frendsCard .Katrine:hover, .frendsCard .Jenifer:hover {
-  cursor: pointer;
-}
-.frendsCard .Katrine .Katrineimg, .frendsCard .Jenifer .Katrineimg {
-  border-radius: 9px 9px 0px 0px;
-}
-.frendsCard .Katrine .btncard, .frendsCard .Jenifer .btncard {
-  font-family: "a3_arial_rusnormal", sans-serif;
-  font-size: 17px;
-  color: #292929;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px 45px;
-  position: static;
-  border: 2px solid #F1CDB3;
-  box-sizing: border-box;
-  border-radius: 100px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-.frendsCard .Katrine .btncard:hover, .frendsCard .Jenifer .btncard:hover {
-  background-color: #FDDCC4;
+.Woody:hover, .Katrine:hover {
   cursor: pointer;
 }
 
-.Woody {
+.Jenifer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -842,7 +818,7 @@ a {
   margin-right: 25px;
   margin-left: 30px;
 }
-.Woody:hover {
+.Jenifer:hover {
   cursor: pointer;
 }
 
@@ -1019,7 +995,7 @@ img {
   padding: 0;
 }
 
-.Katrine, .Jenifer, .Woody, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie {
+.Katrine, .Woody, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1034,13 +1010,13 @@ img {
   font-size: 20px;
   color: #292929;
 }
-.Katrine:hover, .Jenifer:hover, .Woody:hover, .Sophia:hover, .Timmy:hover, .Charly:hover, .Scarlett:hover, .Freddie:hover {
+.Katrine:hover, .Woody:hover, .Sophia:hover, .Timmy:hover, .Charly:hover, .Scarlett:hover, .Freddie:hover {
   cursor: pointer;
 }
-.Katrine .Katrineimg, .Jenifer .Katrineimg, .Woody .Katrineimg, .Sophia .Katrineimg, .Timmy .Katrineimg, .Charly .Katrineimg, .Scarlett .Katrineimg, .Freddie .Katrineimg {
+.Katrine .Katrineimg, .Woody .Katrineimg, .Sophia .Katrineimg, .Timmy .Katrineimg, .Charly .Katrineimg, .Scarlett .Katrineimg, .Freddie .Katrineimg {
   border-radius: 9px 9px 0px 0px;
 }
-.Katrine .btncard, .Jenifer .btncard, .Woody .btncard, .Sophia .btncard, .Timmy .btncard, .Charly .btncard, .Scarlett .btncard, .Freddie .btncard {
+.Katrine .btncard, .Woody .btncard, .Sophia .btncard, .Timmy .btncard, .Charly .btncard, .Scarlett .btncard, .Freddie .btncard {
   font-family: "a3_arial_rusnormal", sans-serif;
   font-size: 17px;
   color: #292929;
@@ -1057,7 +1033,7 @@ img {
   flex-grow: 0;
   margin: 0px 0px;
 }
-.Katrine .btncard:hover, .Jenifer .btncard:hover, .Woody .btncard:hover, .Sophia .btncard:hover, .Timmy .btncard:hover, .Charly .btncard:hover, .Scarlett .btncard:hover, .Freddie .btncard:hover {
+.Katrine .btncard:hover, .Woody .btncard:hover, .Sophia .btncard:hover, .Timmy .btncard:hover, .Charly .btncard:hover, .Scarlett .btncard:hover, .Freddie .btncard:hover {
   background-color: #FDDCC4;
   cursor: pointer;
 }

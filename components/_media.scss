@@ -225,6 +225,7 @@ text-align: left;
             margin: auto;
             padding: 0;
             margin-bottom: 13%;
+        
         }
         .hAbout, .paragrafAbout{
             margin: auto;
@@ -238,8 +239,9 @@ text-align: left;
             display: flex;
             margin-left: 55%;
             
+            
         }
-            .Woody{
+            .Woody, .Jenifer {
                 opacity: 0;
                 display: none;
                 width: 0%;
@@ -247,6 +249,7 @@ text-align: left;
                 margin-left: 1%;
                 
             }
+             
             .arrowRight{
                 padding: 0;
             
