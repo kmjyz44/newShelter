@@ -54,8 +54,8 @@ bottom: 0px;
         justify-items: center;
         
         .dog_about{
-            width: 40%;
-            height: 40%;
+            max-width: 100%;
+            max-height: 100%;
         }
         .textAbout{
 text-align: left;
@@ -179,10 +179,21 @@ text-align: left;
         margin: 0;
         max-width: 100%;
     }
-     .wrapper .conthead h1, p{
+     .wrapper .conthead h1{
         text-align: center;
+        font-size: 28px;
   
     } 
+    .wrapper .conthead p{
+        text-align: center;
+        
+        
+    } 
+    .logo p{
+        margin: 0;
+        margin-top: -10px;
+    
+    }
  
     .conthead{
         margin-left: 0%;
@@ -238,9 +249,10 @@ text-align: left;
         
         }
         }
-        .frendsCard{
-            display: flex;
-            margin-left: 55%;
+        .pets .frendsCard{
+            display: grid;
+            margin-left: 0%;
+            grid-template-rows: 1fr,4fr,1fr;
             
             
         }
@@ -276,7 +288,33 @@ text-align: left;
             display: flex;
             flex-direction: column;
         }
-            
+        .iconsAll{
+            display: flex;
+            justify-content: space-between;
+        }
+       .help .icons{
+           display: grid;
+           grid-template-columns: 0;
+           margin-left: 60px;
+           
+        }
+        .help .icons2{
+            display: grid;
+           grid-template-columns: 0;
+           margin-right: 60px;
+}
+ .additionCont .donanationDog img{
+    width: 100%;
+    height: 100%;
+}
+ .adress .h2Adress h2{
+    text-align: center;
     
 }
-
+.contactu .contact{
+    width: 100%;
+}
+.street p {
+    margin-left: 0px;
+}
+}
