@@ -14,6 +14,8 @@
         text-decoration: underline;
     
     }
+    
+
 .cozy a{
     color: $colorH;
     @include georgia();
@@ -233,6 +235,7 @@ color: $darkcolor;
     padding-top: 80px;
     padding-bottom: 60px;
 }
+
 .icons{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -356,12 +359,14 @@ grid-template-columns: repeat(4, 1fr);
     margin: 0;
     padding: 0;
 }
-.Katrine, .Woody, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
+.Katrine, .Woody, .Jenifer, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
         @include card();
     }
     
+    .petsSlider{
+        display: flex;
+    }
     
-
 .h1Pets{
 @include georgia();
     text-align: center;
@@ -390,3 +395,5 @@ margin-left: 20px;
 .num p {
     background-color: #F1CDB3;
 }
+
+
