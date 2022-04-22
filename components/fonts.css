@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "georgiaregular";
+  src: url("/fonts/georgia-webfont.woff2") format("woff2"), url("/fonts/georgia-webfont.woff") format("woff"), url("georgia-webfont.svg#georgiaregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "a3_arial_rusnormal";
+  src: url("/fonts/a3arialrusnormal-webfont.woff2") format("woff2"), url("/fonts/a3arialrusnormal-webfont.woff") format("woff"), url("a3arialrusnormal-webfont.svg#a3_arial_rusnormal") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+

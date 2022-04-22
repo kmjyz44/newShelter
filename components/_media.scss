@@ -1,0 +1,222 @@
+
+@media screen and (max-width:575px){
+    footer, header {
+        max-width: 100%;
+    }
+    
+    .container{
+        max-width:270px;
+        
+        }
+    .wrapper{
+        margin: 0;
+        padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 269px;
+        margin-left: 67px;
+        margin-right: 67px;
+        
+        
+    }
+    .wrapper{
+        margin-top: -10%;
+    }
+    .conthead{
+        margin-left: 5%;
+        margin-bottom: 9%;
+        width: 88%;
+a{
+    margin-left: 20%;
+}
+    }
+   .conthead p{
+       padding: auto;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    
+    }
+        
+    .dogimg img{
+        width: 92%;
+        height: 92%;
+        left: calc(50% - 569px/2 + 70px);
+bottom: 0px;
+
+    }
+    .dog_header{
+        width: 100%;
+        height: 100%;
+        }
+        
+        .About{
+            display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        
+        .dog_about{
+            width: 40%;
+            height: 40%;
+        }
+        .textAbout{
+text-align: left;
+            margin: auto;
+            padding: 0;
+            margin-bottom: 13%;
+        }
+        .hAbout, .paragrafAbout{
+            margin: auto;
+        padding: 0;
+        text-align: left;
+        
+        
+        }
+        }
+        .frendsCard{
+            display: flex;
+            margin-left: 55%;
+            
+        }
+            .Woody{
+                opacity: 0;
+                display: none;
+                width: 0%;
+                margin-right: 1%;
+                margin-left: 1%;
+                
+            }
+            .arrowRight{
+                padding: 0;
+            
+            }
+            .hOutFrends h2{
+                padding-top: 10%;
+            }
+        
+        .additionCont{
+            display: flex;
+            flex-direction: column-reverse;
+            .dog_addition{
+                width: 20%;
+                height: 20%;
+            }
+        }
+        .contactu{
+            display: flex;
+            flex-direction: column;
+        }
+            
+    
+}
+
+@media screen and (max-width: 768px){
+    footer, header {
+        max-width: 100%;
+    }
+    
+    .container{
+        max-width:688px;
+        
+        }
+    .wrapper{
+        margin: 0;
+        padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 569px;
+        margin-left: 67px;
+        margin-right: 67px;
+        
+    }
+    .wrapper{
+        margin-top: -10%;
+    }
+    .conthead{
+        margin-left: 5%;
+        margin-bottom: 9%;
+        width: 88%;
+a{
+    margin-left: 20%;
+}
+    }
+   .conthead p{
+       padding: auto;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    
+    }
+        
+    .dogimg img{
+        width: 92%;
+        height: 92%;
+        left: calc(50% - 569px/2 + 70px);
+bottom: 0px;
+
+    }
+    .dog_header{
+        width: 100%;
+        height: 100%;
+        }
+        
+        .About{
+            display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        
+        .dog_about{
+            width: 40%;
+            height: 40%;
+        }
+        .textAbout{
+text-align: left;
+            margin: auto;
+            padding: 0;
+            margin-bottom: 13%;
+        }
+        .hAbout, .paragrafAbout{
+            margin: auto;
+        padding: 0;
+        text-align: left;
+        
+        
+        }
+        }
+        .frendsCard{
+            display: flex;
+            margin-left: 55%;
+            
+        }
+            .Woody{
+                opacity: 0;
+                display: none;
+                width: 0%;
+                margin-right: 1%;
+                margin-left: 1%;
+                
+            }
+            .arrowRight{
+                padding: 0;
+            
+            }
+            .hOutFrends h2{
+                padding-top: 10%;
+            }
+        
+        .additionCont{
+            display: flex;
+            flex-direction: column-reverse;
+            .dog_addition{
+                width: 20%;
+                height: 20%;
+            }
+        }
+        .contactu{
+            display: flex;
+            flex-direction: column;
+        }
+            
+    
+}
+
+
+
