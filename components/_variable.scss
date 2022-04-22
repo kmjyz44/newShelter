@@ -1,0 +1,73 @@
+
+$fontsCard: 'a3_arial_rusnormal', sans-serif;
+$area:'a3_arial_rusnormal', serif;
+$white: #ffffff;
+$card-bacgraund-color:#FAFAFA;
+$btn-border-color:#F1CDB3;
+$btn-borde-hover-color:#FDDCC4;
+$colorH:#F1CDB3;
+$colorDark:#CDCDCD;
+$darkcolor:#292929;
+
+@mixin flexColumn() {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+@mixin georgia{
+    font-family: 'georgiaregular' , sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+@mixin card {
+    @include flexColumn();
+    justify-content: space-around;
+    height: 435px;
+    width: 270px;
+    left: 0px;
+    top: 587px;
+    border-radius: 9px;
+    background-color: $card-bacgraund-color;
+    font-family: $fontsCard;
+    font-size: 20px;
+    color: $darkcolor;
+
+    &:hover{
+        cursor: pointer;
+    
+    }
+    .Katrineimg{
+        border-radius: 9px 9px 0px 0px;
+    }
+.btncard{
+    font-family: $fontsCard;
+    font-size: 17px;
+    color: $darkcolor;
+    @include flexColumn();
+padding: 15px 45px;
+position: static;
+border: 2px solid $btn-border-color;
+box-sizing: border-box;
+border-radius: 100px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+&:hover{
+    background-color: $btn-borde-hover-color;
+    cursor: pointer;
+    
+
+
+}
+}
+}
+
+
+
+
