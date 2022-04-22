@@ -592,8 +592,8 @@ template {
     justify-items: center;
   }
   .About .dog_about {
-    width: 40%;
-    height: 40%;
+    width: 100%;
+    height: 100%;
   }
   .About .textAbout {
     text-align: left;
@@ -610,7 +610,8 @@ template {
   .pets .frendsCard {
     display: grid;
     margin-left: 0%;
-    grid-template-rows: 1fr, 4fr, 1fr;
+    grid-template-rows: 1fr, 3fr, 1fr;
+    justify-items: center;
   }
 
   .Woody, .Jenifer {
@@ -1085,6 +1086,10 @@ img {
 .Katrine .btncard:hover, .Woody .btncard:hover, .Sophia .btncard:hover, .Timmy .btncard:hover, .Charly .btncard:hover, .Scarlett .btncard:hover, .Freddie .btncard:hover {
   background-color: #FDDCC4;
   cursor: pointer;
+}
+
+.petsSlider {
+  display: flex;
 }
 
 .h1Pets {

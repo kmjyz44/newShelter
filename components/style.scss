@@ -361,8 +361,10 @@ grid-template-columns: repeat(4, 1fr);
         @include card();
     }
     
+    .petsSlider{
+        display: flex;
+    }
     
-
 .h1Pets{
 @include georgia();
     text-align: center;
