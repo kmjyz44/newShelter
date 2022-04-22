@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px){
+    .petsDog{
+        width: 100%;
+    }
+    .petsDog .frendsCardpets{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        
+    }
+    .frendsCardpets .Scarlett, .Freddie{
+        display: none;
+    }
+    .frendsCardpets .Freddie{
+        display: none;
+    }
+}
+
+@media screen and (max-width:575px){
+    .petsDog .frendsCardpets{
+        display: grid;
+        grid-template-columns: 0;
+        
+    }
+    .h1Pets h1{
+        font-size: 20px;
+        color: $colorDark;
+    }
+    .Jenifer, .Woody{
+        display: flex;
+        opacity: 100;
+    }
+    .frendsCardpets .Sophia{
+        display: none;
+    }
+    .frendsCardpets .Timmy{
+        display: none;
+    }
+    .frendsCardpets .Charly{
+        display: none;
+    }
+    .btnPets{
+        align-items: center;
+    }
+    .btnPets .left2 p{
+        padding: 5px;
+        
+    }
+    .btnPets .left p{
+padding: 5px;
+    }
+    .btnPets .num p{
+        padding: 5px;
+    }
+    .btnPets .right p{
+        padding: 5px;
+    }
+    .btnPets .right2 p{
+        padding: 5px;
+    }
+    .puppy img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .contactu .street p, .contactu .city p{
+        font-size: 10px;
+        
+    }
+}
