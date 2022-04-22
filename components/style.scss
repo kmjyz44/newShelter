@@ -14,6 +14,8 @@
         text-decoration: underline;
     
     }
+    
+
 .cozy a{
     color: $colorH;
     @include georgia();
@@ -357,7 +359,7 @@ grid-template-columns: repeat(4, 1fr);
     margin: 0;
     padding: 0;
 }
-.Katrine, .Woody, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
+.Katrine, .Woody,  .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
         @include card();
     }
     
