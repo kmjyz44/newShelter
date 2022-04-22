@@ -476,6 +476,12 @@ template {
   .contactu {
     display: flex;
     flex-direction: column;
+    margin: 0%;
+  }
+
+  .puppy {
+    width: 100%;
+    margin-top: 5%;
   }
 }
 @media screen and (max-width: 575px) {
@@ -484,7 +490,45 @@ template {
   }
 
   .container {
-    max-width: 270px;
+    max-width: 300px;
+  }
+
+  .navigate {
+    padding-top: 8%;
+  }
+
+  .navigate .menu {
+    display: none;
+    opacity: 0;
+  }
+
+  .logo p {
+    margin: 0;
+  }
+
+  .burger_menu {
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+
+  .burger_menu span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 30px;
+    height: 2.2px;
+    background-color: #f1cdb3;
+    margin-bottom: 10px;
+  }
+
+  .burger_menu :nth-child(2) {
+    top: 10px;
+  }
+
+  .burger_menu :nth-child(3) {
+    top: 20px;
   }
 
   .wrapper {
@@ -499,31 +543,35 @@ template {
 
   .wrapper {
     margin-top: -10%;
+    margin: 0;
+    max-width: 100%;
   }
 
   .conthead {
-    margin-left: 5%;
+    margin-left: 0%;
     margin-bottom: 9%;
-    width: 88%;
+    width: 100%;
   }
   .conthead a {
-    margin-left: 20%;
+    margin-left: 0%;
+    text-align: center;
   }
-
+  .conthead h1 {
+    text-align: center;
+  }
   .conthead p {
     padding: auto;
     margin-bottom: 1%;
     margin-top: 1%;
+    text-align: center;
   }
-
-  .dogimg img {
+  .conthead .dogimg img {
     width: 92%;
     height: 92%;
     left: calc(50% - 284.5px + 70px);
     bottom: 0px;
   }
-
-  .dog_header {
+  .conthead .dog_header {
     width: 100%;
     height: 100%;
   }
