@@ -3,6 +3,7 @@
 @import 'normalize';
 @import 'fonts';
 @import 'media';
+@import 'mediaPets';
 
 
 .navigate , .navigatePets{
@@ -360,7 +361,22 @@ grid-template-columns: repeat(4, 1fr);
     padding: 0;
 }
 .Katrine, .Woody, .Jenifer, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
-        @include card();
+    @include flexColumn();
+    justify-content: space-around;
+    height: 435px;
+    width: 270px;
+    left: 0px;
+    top: 587px;
+    border-radius: 9px;
+    background-color: $card-bacgraund-color;
+    font-family: $fontsCard;
+    font-size: 20px;
+    color: $darkcolor;
+
+    &:hover{
+        cursor: pointer;
+    
+    }
     }
     
     .petsSlider{
@@ -375,7 +391,7 @@ grid-template-columns: repeat(4, 1fr);
     
 }
 .petsDog{
-    width: 1200px;
+    max-width: 1200px;
 }
 .btnPets{
     display: flex;

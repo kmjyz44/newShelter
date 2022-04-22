@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px){
+    .petsDog{
+        width: 100%;
+    }
+    .petsDog .frendsCardpets{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        
+    }
+    .frendsCardpets .Scarlett, .Freddie{
+        display: none;
+    }
+    .frendsCardpets .Freddie{
+        display: none;
+    }
+}
