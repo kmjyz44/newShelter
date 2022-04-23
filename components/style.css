@@ -1295,4 +1295,89 @@ img {
 }
 .hederPet .logo .plogo {
   color: #292929;
+}
+
+.popap {
+  max-width: 640px;
+  max-height: 370px;
+  border-radius: 5%;
+  border: 2px solid #ff0000;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.popap {
+  display: flex;
+}
+
+.text_popap {
+  padding-left: 7%;
+  max-width: 260px;
+  max-height: 603px;
+  background: white;
+  display: inline-block;
+  text-align: left;
+}
+
+.text_popap h3 {
+  font-family: "georgiaregular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-size: 35px;
+}
+.text_popap h3 h4 {
+  font-family: "georgiaregular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.text_popap h3 p {
+  font-family: "georgiaregular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-size: 13px;
+}
+.text_popap h3 li {
+  font-family: "georgiaregular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+}
+
+.popap .img_popap img {
+  margin-left: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.text_popap .ul_popar li::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  margin-right: 2%;
+}
+
+.wrap_btn_popar {
+  width: 680px;
+  display: flex;
+  justify-content: end;
+}
+
+.btn_popap {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.x_popap {
+  display: inline-block;
+  padding-top: 32%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
