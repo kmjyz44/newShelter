@@ -996,7 +996,19 @@ a {
   border-radius: 100px;
 }
 
-.Woody, .Katrine {
+.arrowRight {
+  margin-left: 3%;
+}
+
+.arrowRight:hover {
+  background: #F1CDB3;
+}
+
+.arrowLeft:hover {
+  background: #F1CDB3;
+}
+
+.Woody, .Katrine, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1013,7 +1025,7 @@ a {
   margin-right: 25px;
   margin-left: 30px;
 }
-.Woody:hover, .Katrine:hover {
+.Woody:hover, .Katrine:hover, .Sophia:hover, .Timmy:hover, .Charly:hover, .Scarlett:hover, .Freddie:hover {
   cursor: pointer;
 }
 
@@ -1230,8 +1242,16 @@ img {
   cursor: pointer;
 }
 
+.petsSliderBody {
+  width: 920px;
+  overflow: hidden;
+}
+
 .petsSlider {
   display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
 }
 
 .h1Pets {

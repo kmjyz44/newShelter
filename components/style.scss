@@ -138,6 +138,7 @@ flex-direction: column;
 align-items: center;
 padding: 23px 19px;
 
+
 position: static;
 width: 52px;
 height: 52px;
@@ -150,9 +151,18 @@ border: 2px solid #F1CDB3;
 box-sizing: border-box;
 border-radius: 100px;
 }
+.arrowRight{
+    margin-left: 3%
+}
+.arrowRight:hover{
+    background: #F1CDB3;
+}
+.arrowLeft:hover{
+    background: #F1CDB3;
+}
 
 
-.Woody , .Katrine{
+.Woody , .Katrine, .Sophia, .Timmy, .Charly, .Scarlett, .Freddie{
     @include flexColumn();
     justify-content: space-around;
     height: 435px;
@@ -378,9 +388,17 @@ grid-template-columns: repeat(4, 1fr);
     
     }
     }
+    .petsSliderBody{
+     width: 920px;
+        overflow: hidden;
+    }
     
     .petsSlider{
         display: flex;
+        position: relative;
+        left: 0;
+        transition: all ease 1s;
+
     }
     
 .h1Pets{
