@@ -128,10 +128,9 @@ text-align: left;
 .navigate{
     padding-top: 8%;
 }
-.navigate .menu {
-    display: none;
-    opacity: 0;
 
+.navigate .menu {
+display: none;
 }
 .logo p{
     margin: 0;
@@ -142,7 +141,6 @@ text-align: left;
             height: 30px;
             position: relative;
         }
-        
         .burger_menu span{
             position: absolute;
             top:0;
@@ -156,12 +154,20 @@ text-align: left;
         
         .burger_menu :nth-child(2) {
             top:10px;
-        }
-        
+        } 
         .burger_menu :nth-child(3) {
             top:20px;
+        }    
+        .burger_menu_active{
+       transform: rotate(90deg);   
+        transition: 0.5;
         }
-        
+        .menu_active{
+            display: inline-block;
+            flex-direction: column;
+          justify-content: center;
+
+        }
         
     .wrapper{
         margin: 0;

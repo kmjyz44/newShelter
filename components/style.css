@@ -499,7 +499,6 @@ template {
 
   .navigate .menu {
     display: none;
-    opacity: 0;
   }
 
   .logo p {
@@ -529,6 +528,17 @@ template {
 
   .burger_menu :nth-child(3) {
     top: 20px;
+  }
+
+  .burger_menu_active {
+    transform: rotate(90deg);
+    transition: 0.5;
+  }
+
+  .menu_active {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .wrapper {
