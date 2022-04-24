@@ -1,7 +1,8 @@
 const burger = document.querySelector("#burger_menu");
 const menu = document.querySelector(".menu");
 const wrapper = document.querySelector(".wrapper");
-const body=document.querySelector("body")
+const body=document.querySelector("body");
+
 
 
 
@@ -41,3 +42,10 @@ burger.addEventListener('click', function(){
     })
 
 
+//POPUP
+
+const Jenifer = document.querySelector(".Jenifer");
+const container_popap = document.querySelector(".container_popap");
+Jenifer.addEventListener('click', function(){
+    container_popap.classList.toggle("container_popap_active")
+})

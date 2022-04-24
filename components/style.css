@@ -1297,6 +1297,14 @@ img {
   color: #292929;
 }
 
+.container_popap {
+  display: none;
+}
+
+.container_popap_active {
+  display: block;
+}
+
 .popap {
   max-width: 640px;
   max-height: 370px;
