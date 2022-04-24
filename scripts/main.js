@@ -46,6 +46,12 @@ burger.addEventListener('click', function(){
 
 const Jenifer = document.querySelector(".Jenifer");
 const container_popap = document.querySelector(".container_popap");
+const btn_popap = document.querySelector(".btn_popap")
+
 Jenifer.addEventListener('click', function(){
-    container_popap.classList.toggle("container_popap_active")
+    container_popap.classList.toggle("container_popap_active");
+    
+})
+btn_popap.addEventListener('click', function(){
+    container_popap.classList.remove("container_popap_active");
 })
