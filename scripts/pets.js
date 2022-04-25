@@ -44,11 +44,12 @@ const Scarlett = document.querySelector(".Scarlett");
 const Freddie = document.querySelector(".Freddie");
 
 
+    let petdiv = frendsCard.querySelectorAll('div');
 
     let pet_array = [Jenifer, Katrine, Woody, Sophia, Timmy, Charly, Scarlett, Freddie];
     let arr_i =[];
     let cons = 0;
-    let arr_index=0;
+    let arr_index=[];
     let a =0;
 
     //Рандомное не повторяющее число//
@@ -60,19 +61,17 @@ const Freddie = document.querySelector(".Freddie");
       a=a+1
  return random();
 }
-
  }
 arr_i.push(arr_index);
-  console.log(arr_index);
+//console.log(arr_index);
 }
+for(let arr_ind of arr_i){
+    frendsCard.appendChild(pet_array[arr_ind]);
+   // console.log(arr_ind);
+   } 
+  
 }
 
+    random();
+   
 
-function return_pets(){
-    for(let t = 0; t<pet_array.length; t++){
-    pet_array[t].remove();
-    
-}
-}
-random();
-return_pets();
