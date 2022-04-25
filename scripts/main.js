@@ -28,7 +28,7 @@ burger.addEventListener('click', function(){
 
     arrowRight.addEventListener('click', function(){
         offset = offset + 1000;
-        if(offsset>1000){
+        if(offset>1000){
             offset=0;
         }
         petsSlider.style.left = -offset + "px";
