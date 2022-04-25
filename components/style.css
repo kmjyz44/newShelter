@@ -1309,15 +1309,14 @@ img {
   opacity: 100;
   position: relative;
   z-index: 1;
-  left: 300px;
-  bottom: 1800px;
+  left: 350px;
+  bottom: 1870px;
 }
 
 .popap {
   max-width: 640px;
-  max-height: 370px;
-  border-radius: 5%;
-  border: 2px solid #ff0000;
+  max-height: 380px;
+  border-radius: 30%;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -1327,6 +1326,7 @@ img {
 }
 
 .text_popap {
+  padding-right: 5%;
   padding-left: 7%;
   max-width: 260px;
   max-height: 603px;
@@ -1396,4 +1396,19 @@ img {
   display: inline-block;
   padding-top: 32%;
   text-align: center;
+}
+
+.body_active {
+  overflow: hidden;
+  overflow: none;
+}
+
+.pets_active {
+  background: #000;
+  opacity: 60%;
+}
+
+.frendsCard_active {
+  background: #000;
+  opacity: 60%;
 }/*# sourceMappingURL=style.css.map */
