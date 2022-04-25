@@ -7,3 +7,28 @@ burger.addEventListener('click', function(){
     menu.classList.toggle('menu_active');  
     h1Pets.classList.toggle('h1Pets_active');
 });
+
+//POPUP
+
+const Jenifer = document.querySelector(".Jenifer");
+const container_popap = document.querySelector(".container_popap_pets");
+const btn_popap = document.querySelector(".btn_popap_pets");
+const pet = document.querySelector("#pet");
+const frendsCard = document.querySelector(".frendsCardpets");
+const body_pet = document.querySelector(".body_pet");
+
+
+Jenifer.addEventListener('click', function(){
+    container_popap.classList.toggle("container_popap_pets_active");
+    body_pet.classList.toggle("body_pet_active");
+    pet.classList.toggle("pet_active");
+    frendsCard.classList.toggle("frendsCardpets_active");
+    
+})
+btn_popap.addEventListener('click', function(){
+    container_popap.classList.remove("container_popap_pets_active");
+    body_pet.classList.remove("body_pet_active");
+    pet.classList.remove("pet_active");
+    frendsCard.classList.remove("frendsCardpets_active");
+})
+    
