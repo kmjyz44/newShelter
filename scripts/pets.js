@@ -32,3 +32,47 @@ btn_popap.addEventListener('click', function(){
     frendsCard.classList.remove("frendsCardpets_active");
 })
     
+
+//Pagination//
+
+const Katrine = document.querySelector(".Katrine");
+const Woody = document.querySelector(".Woody");
+const Sophia = document.querySelector(".Sophia");
+const Timmy = document.querySelector(".Timmy");
+const Charly = document.querySelector(".Charly");
+const Scarlett = document.querySelector(".Scarlett");
+const Freddie = document.querySelector(".Freddie");
+
+
+
+    let pet_array = [Jenifer, Katrine, Woody, Sophia, Timmy, Charly, Scarlett, Freddie];
+    let arr_i =[];
+    let cons = 0;
+    let arr_index=0;
+    let a =0;
+
+    //Рандомное не повторяющее число//
+    function random (){
+         while(arr_i.length<8){
+ arr_index = Math.floor(Math.random()*8);
+ for(arr of arr_i){
+  if(arr_index == arr && cons <= 8){ 
+      a=a+1
+ return random();
+}
+
+ }
+arr_i.push(arr_index);
+  console.log(arr_index);
+}
+}
+
+
+function return_pets(){
+    for(let t = 0; t<pet_array.length; t++){
+    pet_array[t].remove();
+    
+}
+}
+random();
+return_pets();
