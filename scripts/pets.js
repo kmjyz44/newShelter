@@ -52,6 +52,11 @@ const Freddie = document.querySelector(".Freddie");
     let cons = 0;
     let arr_index=[];
     index_str1=0;
+    index_str2=0;
+    index_str3=0;
+    index_str4=0;
+    index_str5=0;
+    index_str6=0;
 
     //Рандомное не повторяющее число//
     function random (){
@@ -72,10 +77,10 @@ for(let arr_ind of arr_i){
     
 }
     }
-    //console.log(pet_str);
     for(let l=0;l<6;l++){
 random();
     }
+
  function str1 (){
      for(let q =0;q<8;q++){
      index_str1 = pet_str[q];
@@ -84,34 +89,39 @@ random();
  }
 }
 function str2 (){
-    for(let q =7;q<15;q++){
-    index_str1 = pet_str[q];
-    frendsCard.appendChild(pet_array[index_str1]); 
+    for(let w =7;w<15;w++){
+    index_str2 = pet_str[w];
+    frendsCard.appendChild(pet_array[index_str2]); 
+
     }
-}
+  }
 function str3 (){
-    for(let q =15;q<23;q++){
-    index_str1 = pet_str[q];
-    frendsCard.appendChild(pet_array[index_str1]); 
-    }
+    for(let e =15;e<23;e++){
+    index_str3 = pet_str[e];
+    frendsCard.appendChild(pet_array[index_str3]); 
+       
+}
 }
 function str4 (){
-    for(let q =23;q<31;q++){
-    index_str1 = pet_str[q];
-    frendsCard.appendChild(pet_array[index_str1]); 
-    }
+    for(let r =23;r<31;r++){
+   index_str4 = pet_str[r];
+    frendsCard.appendChild(pet_array[index_str4]); 
+    
+}
 }
 function str5 (){
-    for(let q =31;q<39;q++){
-    index_str1 = pet_str[q];
-    frendsCard.appendChild(pet_array[index_str1]); 
-    }
+   for(let t =31;t<39;t++){
+    index_str5 = pet_str[t];
+    frendsCard.appendChild(pet_array[index_str5]); 
+     
+}
 }
 function str6 (){
     for(let q =39;q<47;q++){
-    index_str1 = pet_str[q];
-    frendsCard.appendChild(pet_array[index_str1]); 
-    }
+    index_str6 = pet_str[q];
+    frendsCard.appendChild(pet_array[index_str6]); 
+     
+}
 }
 //}
 //Кнопки. навигация.//
@@ -120,29 +130,34 @@ const right2 = document.querySelector('.right2');
 const num = document.querySelector('.num p');
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
-let index_line=0;
+let index_line=1;
+
+//let str = [str1(),str2(),str3(),str4(),str5(),str6()];
+
 left2.addEventListener('click', function(){
     str1();
     num.innerHTML='1';
+    index_line =1;
 });
 
 right2.addEventListener('click', function(){
     str6();
     num.innerHTML='6';
+    index_line =6;
 });
+
 right.addEventListener('click',function(){
+    str2();
     index_line=index_line+1;
-    
-    while(index_line<7){
-        num.innerHTML=index_line;
-       switch(index_line){
-case 1:str1();
-case 2:str2();
-case index_line===3:str3();
-case index_line=4:str4();
-case index_line=5:str5();
-case index_line=6:str6();
-       }
-        
-    }
+  num.innerHTML=index_line;
+   
 });
+
+   left.addEventListener('click', function(){
+    str5();
+    index_line=index_line-1;
+    num.innerHTML=index_line;
+    
+   });
+  
+   
