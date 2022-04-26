@@ -27,16 +27,16 @@ burger.addEventListener('click', function(){
     const arrowRight = document.querySelector(".arrowRight");
 
     arrowRight.addEventListener('click', function(){
-        offset = offset + 1000;
-        if(offset>1000){
+        offset = offset + 910;
+        if(offset>910){
             offset=0;
         }
         petsSlider.style.left = -offset + "px";
     })
 
     arrowLeft.addEventListener('click', function(){
-        offset = offset - 1000;
-        if(offset<1000){
+        offset = offset - 910;
+        if(offset<910){
             offset=0;}
         petsSlider.style.left = offset + "px";
     })
