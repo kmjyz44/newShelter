@@ -1,7 +1,8 @@
 const burger = document.querySelector("#burger_menu");
 const menu = document.querySelector(".menu");
 const wrapper = document.querySelector(".wrapper");
-const body=document.querySelector("body")
+const body=document.querySelector("body");
+
 
 
 
@@ -41,3 +42,24 @@ burger.addEventListener('click', function(){
     })
 
 
+//POPUP
+
+const Jenifer = document.querySelector(".Jenifer");
+const container_popap = document.querySelector(".container_popap");
+const btn_popap = document.querySelector(".btn_popap");
+const pets = document.querySelector(".pets");
+const frendsCard = document.querySelector(".frendsCard");
+
+
+Jenifer.addEventListener('click', function(){
+    container_popap.classList.toggle("container_popap_active");
+    body.classList.toggle("body_active");
+    pets.classList.toggle("pets_active");
+    frendsCard.classList.toggle("frendsCard_active");
+})
+btn_popap.addEventListener('click', function(){
+    container_popap.classList.remove("container_popap_active");
+    body.classList.remove("body_active");
+    pets.classList.remove("pets_active");
+    frendsCard.classList.remove("frendsCard_active");
+})
