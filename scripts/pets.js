@@ -330,11 +330,8 @@ btn_popap.addEventListener('click', function(){
  return random();
 }
  }
- 
 arr_i.push(arr_index);
-
 }
-
 for(let arr_ind of arr_i){
     pet_str.push(arr_ind);
     
@@ -347,14 +344,14 @@ random();
  function str1 (){
      for(let q =0;q<8;q++){
      index_str1 = pet_str[q];
-     frendsCard.appendChild(pet_array[index_str1]); 
+    // frendsCard.appendChild(pet_array[index_str1]); 
    
  }
 }
 function str2 (){
     for(let w =7;w<15;w++){
     index_str2 = pet_str[w];
-    frendsCard.appendChild(pet_array[index_str2]); 
+  //  frendsCard.appendChild(pet_array[index_str2]); 
 
     }
   }
@@ -412,6 +409,7 @@ right2.addEventListener('click', function(){
 right.addEventListener('click',function(){
     index_line=index_line+1;
 if(index_line<7){
+    
 num.innerHTML=index_line;
 switch(index_line){
     case 1 : str1();
@@ -426,6 +424,7 @@ switch(index_line){
 
    left.addEventListener('click', function(){
     if(index_line>1){
+        
     index_line=index_line-1;
     num.innerHTML=index_line;
     switch(index_line){

@@ -705,6 +705,10 @@ template {
     margin-left: 0px;
   }
 }
+.petsSliderBody {
+  width: 87%;
+}
+
 @media screen and (max-width: 768px) {
   .petsDog {
     width: 100%;
@@ -1244,7 +1248,7 @@ img {
 }
 
 .petsSliderBody {
-  width: 920px;
+  max-width: 920px;
   overflow: hidden;
 }
 
