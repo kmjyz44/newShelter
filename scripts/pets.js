@@ -160,10 +160,11 @@ Sophia.addEventListener('click', function(){
     diseases.innerHTML = Sophia_pet.diseases;
     parasites.innerHTML = Sophia_pet.parasites;
     
-        container_popap.classList.toggle("container_popap_pets_active");
-        body_pet.classList.toggle("body_pet_active");
-        pet.classList.toggle("pet_active");
-        frendsCard.classList.toggle("frendsCardpets_active");
+    container_popap.classList.toggle("container_popap_pets_active");
+    body_pet.classList.toggle("body_pet_active");
+    pet.classList.toggle("pet_active");
+    frendsCard.classList.toggle("frendsCardpets_active");
+    
 })
 
 //Woody_pet//
